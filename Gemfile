@@ -58,7 +58,7 @@ group :development, :test do
   gem 'hirb-unicode'
 end
 
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 
 group :test do
   gem 'rails-controller-testing', '1.0.2'
