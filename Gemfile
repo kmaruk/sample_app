@@ -67,3 +67,5 @@ group :test do
   gem 'guard',                    '2.16.2'
   gem 'guard-minitest',           '2.4.4'
 end
+
+gem 'jquery-rails', '4.3.1'
