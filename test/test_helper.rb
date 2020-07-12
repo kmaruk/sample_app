@@ -13,7 +13,7 @@ class ActiveSupport::TestCase
 
 #テストユーザーとしてログインする
   def log_in_as(user)
-    session[:uses_id] = user.id
+    session[:user_id] = user.id
   end
 end
 
