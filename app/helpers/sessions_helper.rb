@@ -46,6 +46,9 @@ module SessionsHelper
   def log_out
     forget(current_user)
     session.delete(:user_id)
+    #ハッシュのキーに対応する値を削除する
+    # section={:user_id => "foo"}
+    # section.delete(:user_id)
     @current_user = nil
   end
 
